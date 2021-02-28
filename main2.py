@@ -1,8 +1,10 @@
+import pyautogui as klavye
+import time
+
 def yaz():
     yazi = str(input("Yazı: "))
     sure = float(input("Kaç saniye beklenecek: "))
     sayi = 0
-    ilk = 1
     time.sleep(1)
     try:
         while True:
